@@ -1,0 +1,20 @@
+.removed {
+    display: none;
+}
+
+.videoView p {
+    position: absolute;
+    z-index: 2;
+    padding: 5px;
+    border: 1px dashed white;
+    background-color: rgba(255, 0, 0, 0.85);
+    font-size: 14px;
+    color: white;
+}
+
+.highlighter {
+    position: absolute;
+    z-index: 1;
+    border: 1px dashed white;
+    background: rgba(0, 255, 0, 0.20);
+}
